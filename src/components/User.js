@@ -11,7 +11,7 @@ function User({ user, bgColor, textColor }) {
     <div className='user'>
       <img
         className='user-avatar'
-        src={imageURL}
+        src={process.env.PUBLIC_URL + imageURL}
         alt={name}
         style={{ borderColor: `${userStyles.backgroundColor}` }}
       />
