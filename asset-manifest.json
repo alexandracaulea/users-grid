@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/users-grid/static/css/main.3ef590b8.css",
-    "main.js": "/users-grid/static/js/main.b7a63641.js",
+    "main.js": "/users-grid/static/js/main.9aecca9a.js",
     "index.html": "/users-grid/index.html",
     "main.3ef590b8.css.map": "/users-grid/static/css/main.3ef590b8.css.map",
-    "main.b7a63641.js.map": "/users-grid/static/js/main.b7a63641.js.map"
+    "main.9aecca9a.js.map": "/users-grid/static/js/main.9aecca9a.js.map"
   },
   "entrypoints": [
     "static/css/main.3ef590b8.css",
-    "static/js/main.b7a63641.js"
+    "static/js/main.9aecca9a.js"
   ]
 }
