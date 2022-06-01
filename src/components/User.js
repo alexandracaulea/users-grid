@@ -8,7 +8,7 @@ function User({ user, bgColor, textColor }) {
   };
 
   return (
-    <div className='user'>
+    <>
       <img
         className='user-avatar'
         src={process.env.PUBLIC_URL + imageURL}
@@ -18,7 +18,7 @@ function User({ user, bgColor, textColor }) {
       <div className='user-position' style={userStyles}>
         {position}
       </div>
-    </div>
+    </>
   );
 }
 

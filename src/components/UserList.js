@@ -1,3 +1,4 @@
+import { motion, AnimatePresence } from 'framer-motion';
 import PropTypes from 'prop-types';
 import User from './User';
 
@@ -16,9 +17,18 @@ function UserList({ users }) {
 
   return (
     <div className='user-list'>
-      {users.map(user => (
-        <User key={user.id} user={user} bgColor={colors[user.id - 1]} />
-      ))}
+      <AnimatePresence>
+        {users.map(user => (
+          <motion.div
+            key={user.id}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className='user'
+          >
+            <User user={user} bgColor={colors[user.id - 1]} />
+          </motion.div>
+        ))}
+      </AnimatePresence>
     </div>
   );
 }
